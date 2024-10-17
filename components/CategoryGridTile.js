@@ -6,6 +6,7 @@ function CategoryGridTile({ title, color, onPress }) {
     return (
     <View style={styles.gridItem}>
       <Pressable
+      //Basınca basma efekti veriyor biri android, diğeri ios
         android_ripple={{ color: "#ccc" }}
         style={({ pressed }) => [
           styles.buttonStyle,
